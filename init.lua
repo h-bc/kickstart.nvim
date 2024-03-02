@@ -103,7 +103,7 @@ vim.opt.number = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
-
+vim.opt.guicursor = 'n-v-i-c:block-Cursor'
 -- Don't show the mode, since it's already in status line
 vim.opt.showmode = false
 
